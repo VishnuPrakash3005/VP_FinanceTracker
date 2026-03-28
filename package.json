@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "npm install prisma@5 @prisma/client@5 && node_modules/.bin/prisma generate"
+    "build": "echo build done"
   },
   "dependencies": {
     "@prisma/client": "5.22.0",
@@ -17,5 +17,8 @@
     "json2csv": "^5.0.7",
     "jsonwebtoken": "^9.0.0",
     "prisma": "5.22.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   }
 }

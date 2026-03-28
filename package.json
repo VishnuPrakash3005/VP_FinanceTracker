@@ -1,4 +1,7 @@
 {
+   "engines": {
+    "node": "18.x"
+  },
   "name": "expense-tracker-backend",
   "version": "1.0.0",
   "description": "FinTrack - Finance Management System Backend",
